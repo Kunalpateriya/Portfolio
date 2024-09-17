@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Navbar{
+    padding: 10px;
+    background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+}
+#heading{
+    padding-right: 30px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px green;
+}
+
+#Dropdown-item a{
+    text-decoration: none;
+    color: black;
+}
+
+#sec-1-box{
+    background-image: url(/public/image/Navimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+    width: 100%;
+    height: 650px;
+    padding-top: 150px;
+}
+
+.sec-1{ 
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Head-hi{
+    padding-left: 30%;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #695aa6;
+}
+
+.Head{
+    padding-left: 30%;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #695aa6;
+    font-size: 50px;
+    color: #212529;
+}
+
+
+#Row-front{
+    font-family: "DM Serif Display", serif;
+    padding-left: 30%;
+    color: grey;
+}
+
+#container-box{
+    margin: 0%;
+    padding: 0%;
+    max-width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contain-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+#Column1{
+    height: 450px;
+    background: url(/public/image/code.gif) no-repeat center center/cover;
+}
+
+#Column2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 20px;
+}
+
+
+#Rowbox1{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5%;
+}
+
+#Rowbox2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #695aa6;
+    padding-left: 5%;
+}
+
+#Rowbox3{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left: 5%;
+}
+
+#Container3{
+    max-width: 100%;
+    height: 550px;
+    padding: 30px 90px;
+}
+
+#Row-a{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:0%;
+}
+#Row-b{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    height: 70px;
+    color: #695aa6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+}
+#Row-c{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+}
+
+#Card-haed{
+    font-family: "DM Serif Display", serif;
+    font-weight: 800;
+}
+
+#Container-sec-4{
+    background-color: #685aa5;
+    margin-top: 50px;
+    max-width: 100%;
+    height: 125px;
+}
+
+#Sec-4-Row{
+    padding: 35px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#Sec-4-Col-Left{
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    font-family: "Yeseva One", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+#Sec-4-Col-Right{
+    margin-left: 300px;
+    padding: 10px 10px;
+}
+
+#Contact-Container{
+    margin-top: 50px;
+    max-width: 100%;
+    height: 550px;
+}
+
+#Contact-Row{
+    height: 400px;
+    margin: 50px;
+}
+
+#Contact-Content-Row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact-Content-Row2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #695aa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact-Content-Row3{
+    display: flex;
+    justify-content: center;
+    padding-left:  200px;
+    padding-right: 200px;
+}
