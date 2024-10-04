@@ -9,13 +9,11 @@ const App = () => {
   return (
     <>
     <NavBar/>
-    {/* Main */}
-    <Section1/>         {/*Introduction*/}
-    <Section2/>         {/*About Me*/}
-    <Section3/>         {/*Porfolio*/}
-    <Section4/>         {/*Hire me*/}
+    <Section1/>
+    <Section2/>
+    <Section3/>
+    <Section4/>
     <Contact/>
-    {/* Footer */}
     </>
   )
 }

@@ -19,12 +19,12 @@ const Contact = () => {
             <Form.Control type="email" placeholder="name@example.com" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
+            <Form.Label>Write Somethings</Form.Label>
             <Form.Control as="textarea" rows={3} />
           </Form.Group>
         </Form>
         <br />
-        <Button id='btn' variant="primary">Get In Touch</Button>{' '}
+        <Button id='btn' variant="outline-primary" size="sm">Get In Touch</Button>{' '}
         </Row>
       </Row>
     </Container>

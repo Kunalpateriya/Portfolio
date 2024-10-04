@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import code from "../image/code.gif";
 
 
 const Section2 = () => {
@@ -8,7 +9,8 @@ const Section2 = () => {
     <>
     <Container id='container-box'>
         <Row id='contain-row'>
-          <Col id='Column1'>
+          <Col id='Column1' className='col'>
+              <img src={code} alt="" srcset="" width="100%" />
           </Col>
           <Col id='Column2'>
                   <Row id='Rowbox1'>

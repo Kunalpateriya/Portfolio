@@ -3,6 +3,10 @@ import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
+import messho from "../image/messho.png";
+import paypal from "../image/paypal.png";
+import dash from "../image/dash.png";
+
 const Section3 = () => {
   return (
     <>
@@ -13,7 +17,7 @@ const Section3 = () => {
           <CardGroup>
       <Card>
         <Card.Img variant="top" />
-        <img src="/public/image/messho.png" alt="" height="250px" />
+        <img src={messho} alt="" height="250px" />
         <Card.Body>
           <Card.Title id='Card-haed'>Meesho-Website</Card.Title>
           <Card.Text>
@@ -23,7 +27,7 @@ const Section3 = () => {
       </Card>
       <Card>
         <Card.Img variant="top"/>
-        <img src="/public/image/paypal.png" alt="" height="250px" />
+        <img src={paypal} alt="" height="250px" />
         <Card.Body>
           <Card.Title id='Card-haed'>Paypal-Website</Card.Title>
           <Card.Text>
@@ -33,7 +37,7 @@ const Section3 = () => {
       </Card>
       <Card>
         <Card.Img variant="top" />
-        <img src="/public/image/dash.png" alt="" height="250px" />
+        <img src={dash} alt="" height="250px" />
         <Card.Body>
           <Card.Title id='Card-haed'>Cybrom-Dashboard</Card.Title>
           <Card.Text>
