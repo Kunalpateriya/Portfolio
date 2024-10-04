@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#Navbar{
+    padding: 5px;
+    background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+}
+
+
+#heading{
+    padding-right: 30px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px green;
+}
+
+#Dropdown-item a{
+    text-decoration: none;
+    color: black;
+}
+
+#sec-1-box img{
+    width: 100%;
+    height: 565px;
+    position: absolute;
+}
+
+.sec-1{ 
+    padding-top: 225px;
+    margin: 0%;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.Head-hi{
+    padding-left: 25%;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #695aa6;
+}
+
+.Head{
+    padding-left: 25%;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #695aa6;
+    font-size: 50px;
+    color: #212529;
+}
+
+
+#Row-front{
+    font-family: "DM Serif Display", serif;
+    padding-left: 25%;
+    color: grey;
+}
+
+#container-box{
+    padding: 0%;
+    max-width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 576px) {
+    #container-box {
+        margin-bottom: 350px;
+    }
+}
+
+#contain-row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+#Column1{
+    padding-top: 10px;
+    height: 450px;
+}
+
+@media (max-width: 576px) {
+    #Column1 {
+        flex: none;
+    }
+}
+
+#Column2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 20px;
+}
+
+
+#Rowbox1{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5%;
+}
+
+#Rowbox2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #695aa6;
+    padding-left: 5%;
+}
+
+#Rowbox3{
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
+    padding-left: 5%;
+}
+
+#Container3{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 90px;
+}
+
+@media screen and (max-width:576px) {
+    #Container3{
+        padding: 0%;
+    }
+}
+
+#Row-a{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:0%;
+}
+#Row-b{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    height: 70px;
+    color: #695aa6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+}
+#Row-c{
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0%;
+}
+
+@media (max-width: 576px) {
+    #Row-c {
+        height: auto;
+        padding: 10px 20px;
+    }
+}
+
+#Card-haed{
+    font-family: "DM Serif Display", serif;
+    font-weight: 800;
+}
+
+#Container-sec-4{
+    background-color: #685aa5;
+    margin-top: 50px;
+    max-width: 100%;
+    height: 125px;
+}
+
+#Sec-4-Row{
+    padding: 35px 200px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    #Sec-4-Row{
+        padding: 10px 10px;
+    }
+}
+
+#Sec-4-Col-Left{
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+    font-family: "Yeseva One", serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 576px) {
+    #Sec-4-Col-Left{
+        font-size: 14px;
+    }
+}
+
+#Sec-4-Col-Right{
+    margin-left: 300px;
+    padding: 10px 10px;
+}
+
+#Contact-Container{
+    margin-top: 50px;
+    max-width: 100%;
+    height: 550px;
+}
+
+#Contact-Row{
+    height: 400px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 576px) {
+    #Contact-Row{
+        margin: 0%;
+    }
+}
+
+#Contact-Content-Row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact-Content-Row2{
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #695aa6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact-Content-Row3{
+    display: flex;
+    justify-content: center;
+    padding-left:  200px;
+    padding-right: 200px;
+}
+
+@media screen and (max-width: 576px) {
+    #Contact-Content-Row3{
+        padding-left:  100px;
+        padding-right: 100px;
+    }
+}
+
+/* @media screen and (max-width: 576px) {
+    #btn{
+        padding: 10px 10px;
+    }
+} */
