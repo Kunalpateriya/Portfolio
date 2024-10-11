@@ -80,6 +80,11 @@
     margin-bottom: 150px;
 }
 
+@media (max-width: 768px) {
+    #container-box {
+        margin-bottom: 350px;
+    }
+}
 @media (max-width: 576px) {
     #container-box {
         margin-bottom: 350px;
@@ -97,13 +102,18 @@
 }
 
 
-
 #Column1{
     padding-top: 10px;
     height: 450px;
 }
 
 @media (max-width: 576px) {
+    #Column1 {
+        flex: none;
+    }
+}
+
+@media (max-width: 768px) {
     #Column1 {
         flex: none;
     }
@@ -118,6 +128,14 @@
     margin-right: 20px;
 }
 
+@media screen and (max-width: 786px) {
+    #Column2{
+        padding-top: 75px;
+    }
+    #Column2 p{
+        font-size: 14px;
+    }
+}
 
 #Rowbox1{
     font-family: "Yeseva One", serif;
@@ -289,8 +307,9 @@
     }
 }
 
-/* @media screen and (max-width: 576px) {
-    #btn{
-        padding: 10px 10px;
+/* @media screen and (max-width: 786px) {
+    #Contact-Content-Row3{
+        padding-left:  100px;
+        padding-right: 100px;
     }
 } */
